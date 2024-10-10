@@ -1,0 +1,50 @@
+body{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 18px;
+}
+h2, h3, footer{
+    background-color:gold;
+}
+.site-title{
+    color: blue;
+}
+#my-image{
+    box-shadow: 0px 0px 2px 1px black;
+}
+ul{
+    list-style-type: square;
+}
+ul:nth-child(even){
+    background-color: pink;
+}
+a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
+  a {
+    color: red;
+    border: 2px solid
+  }
+  a:link {
+    background-color: red;
+  }
+  
+  a:visited {
+    background-color: white;
+  }
+  
+  a:hover {
+    background-color: gold;
+  }
+  
+  a:active {
+    background-color: hotpink;
+  } 
