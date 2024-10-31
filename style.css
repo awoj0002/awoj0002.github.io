@@ -1,0 +1,52 @@
+header{
+    background-color:magenta;
+    padding: 1rem;
+    margin: 2rem;
+}
+h1{
+    color: blue
+}
+/* This is a demo comment */
+/* Target h1 h2 h3 */
+h1, h2, h3{
+    /* border: 1px solid darkcyan; */
+    text-decoration:underline;
+}
+/* target all para on the page */
+p{
+    font-weight: 600;
+}
+/* Target all para within a div */
+div p{
+    font-weight:200;
+}
+/* when targetting a class we need */
+.highlight{
+    background-color:gold;
+}
+.goals{
+    color:rgb(218,10,51)
+}
+/* when targetting an ID */
+#explain{
+    border: 2px solid gray;
+    border-radius: 1rem;
+    padding:0.5rem 1rem;
+}
+li:nth-child(odd){
+    background-color:deepskyblue;
+}
+li:nth-child(even){
+    background-color:brown;
+}
+a[href="https://algonquincollege.com"]{
+    font-size: 30px;
+}
+/* forces span to inherit the color from the para */
+span{
+    color: inherit;
+}
+/* resets browser default */
+span{
+    color: initial;
+}

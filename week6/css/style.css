@@ -1,0 +1,53 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); */
+html{
+    font-size: 20px
+}
+body{
+    font-family: "Bebas Neue" , monospace;
+    background-color: gold;
+}
+.container{
+    width: 90vw;
+    margin: 0 auto;
+}
+header{
+    background-color:skyblue;
+    color: white;
+    padding: 5rem;
+    background-image: url("../images/bread.jpg");
+    background-repeat: no-repeat;
+    background-position: 20px 40px;
+    /* x-postion y-position */
+    /* left center right */
+    background-position: center center;
+    background-size: cover;
+    /* opacity: 0.5; */
+    
+    
+    /* margin: 2rem; */
+
+}
+.overlay{
+
+}
+h1{
+    text-transform: uppercase;
+}
+li{
+    /* px, rem or em */
+    font-size: 1.2rem;
+}
+p{
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: 700;
+    /* width: 50%; */
+    /* display: inline; */
+}
+p{
+    text-transform: uppercase;
+}
+h1{
+    font-weight: normal;
+    font-color: red;
+  }
